@@ -1,4 +1,46 @@
-.col-sm {
-    margin-top: 20px;
+/*gradient*/
+body {
+    background: #cedbe9; /* Old browsers */
+    background: -moz-linear-gradient(top, #cedbe9 0%, #aac5de 0%, #3a84c3 24%, #6199c7 42%, #419ad6 59%, #4bb8f0 73%, #3a8bc2 89%, #26558b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cedbe9 0%,#aac5de 0%,#3a84c3 24%,#6199c7 42%,#419ad6 59%,#4bb8f0 73%,#3a8bc2 89%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 0%,#3a84c3 24%,#6199c7 42%,#419ad6 59%,#4bb8f0 73%,#3a8bc2 89%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+}
+/*end of gradient*/
+
+img {
+    padding: 0.5rem;
 }
 
+div.jumbotron {
+    background-color: #D6EADF;
+}
+
+.col-sm {
+    margin-top: 0.5rem;
+    
+}
+
+.card {
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    border: none;
+    -webkit-box-shadow: 11px 13px 52px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 13px 52px -15px rgba(0,0,0,0.75);
+    box-shadow: 11px 13px 52px -15px rgba(0,0,0,0.75);
+    border-radius: 0.5rem;
+    background-color: #FFEDDF; /* Old browsers */
+
+}
+
+.card a {
+    position: absolute;
+    bottom: 4rem;
+}
+
+li.list-group-item {
+    border-left: none;
+    border-right: none;
+}
