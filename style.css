@@ -10,6 +10,8 @@ body {
 
 img {
     padding: 0.5rem;
+	max-width: 100%;
+	height: auto;
 }
 
 div.jumbotron {
@@ -52,7 +54,7 @@ h5.card-title {
 
 .card a {
     position: absolute;
-    bottom: 4rem;
+    bottom: 3rem;
 }
 
 li.list-group-item {
