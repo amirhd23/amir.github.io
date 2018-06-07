@@ -13,12 +13,22 @@ img {
 }
 
 div.jumbotron {
-    background-color: #D6EADF;
+    background-color: #FE938C;
+	color: white;
 }
 
 .col-sm {
     margin-top: 0.5rem;
     
+}
+
+p.lead {
+	font-size: 2rem;
+}
+
+h5.card-title {
+	text-align: center;
+	color: #3A84C3;
 }
 
 .card {
@@ -31,8 +41,13 @@ div.jumbotron {
     -moz-box-shadow: 11px 13px 52px -15px rgba(0,0,0,0.75);
     box-shadow: 11px 13px 52px -15px rgba(0,0,0,0.75);
     border-radius: 0.5rem;
-    background-color: #FFEDDF; /* Old browsers */
+    background-color: #DDEDAA; /* Old browsers */
 
+}
+
+.list-group li {
+	background-color: #93B5C6;
+	color: white;
 }
 
 .card a {
